@@ -1,7 +1,7 @@
 
 
-# Use Red Hat UBI Python 3.12 minimal image for improved security
-FROM registry.redhat.io/ubi9/python-312-minimal
+# Use official Python image from Docker Hub
+FROM docker.io/library/python:3.11-slim
 
 WORKDIR /app
 
